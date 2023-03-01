@@ -8,7 +8,7 @@ module.exports = {
 	Params: null,
 	Whitelist_Response: null,
 	Static_Data: (() => ({
-		emojis: ["👩‍❤️‍💋‍👨", "💋", "😗", "👩‍❤️‍💋‍👨", "😙", "😚", "😽", "💋😳", "👨‍❤️‍💋‍👨"]
+		emojis: [ " CatHug "]
 	})),
 	Code: (async function kiss (context, user, emote) {
 		if (!user || user.toLowerCase() === context.user.Name) {
